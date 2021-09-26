@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav-custom{
+    padding-left: 12px;
+}
+
+.nav-link-custom{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.header__search{
+    align-items: center;
+    background-repeat: no-repeat;
+    background: url(../images/bg.jpg);
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__search-input,
+.header__search-btn{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+
+.header__search-input{
+    margin-right: 5px;
+    padding: 5px 250px 5px 20px;
+    outline: none;
+}
+
+.header__search-btn{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: tomato;
+}
+
+.explore-list{
+    justify-content:space-around;
+}
+.explore-title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.explore-item{
+    height: 30rem;
+    width: 25rem;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.explore-item-pizza{
+    background-image: url(../images/pizza.jpg);
+    margin-bottom: 40px;
+}
+
+.explore-item-burger{
+    background-image: url(../images/burger.jpg);
+}
+
+.explore-item-momo{
+    background-image: url(../images/momo.jpg);
+}
+
+.explore-item-title{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+}
+
+
+.food-menu-title{
+    display: flex;
+    justify-content: center;
+}
+
+.food-menu{
+    padding: 80px 12px;
+}
+
+.food-menu_item{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-food{
+    width: 85%;
+    height: 160px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.item-food-img{
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+
+.item-price{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-menu__item-price{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.food-menu__item-btn{
+    width: 6rem;
+    background-color: tomato;
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 8px;
+    padding: 6px 0;
+}
+
+
+.footer{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact{
+    font-size: 2rem;
+}
+
+.contact > i{
+    margin: 0 10px;
+    color: tomato;
+}
+
+.auth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.auth a{
+    color: tomato;
+    text-decoration: none;
+}
